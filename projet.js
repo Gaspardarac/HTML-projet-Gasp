@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const img = document.createElement('img');
         img.src = joueur.img;
         img.alt = `Photo de ${joueur.nom}`;
-        img.style.width = "100px"; // Ajustez la taille comme nécessaire
+        img.style.width = "100px"; 
         
         const link = document.createElement('a');
         link.href = joueur.detailsPage;
