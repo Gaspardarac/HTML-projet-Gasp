@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    background-image: url('images/wim_fond2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+#joueurListe li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#joueurListe li:hover {
+    background-color: #f0f0f0;
+}
+
+#detailsJoueur {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #f8f9fa;  
+    color: #333;                
+    padding: 20px;             
+    font-size: 0.9rem;          
+    border-top: 1px solid #ccc; 
+    text-align: center;         
+}

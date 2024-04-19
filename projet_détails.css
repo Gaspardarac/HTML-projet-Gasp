@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+h1, h2 {
+    color: navy;
+}
+p {
+    line-height: 1.6;
+}
+ul {
+    list-style-type: square;
+}
+img {
+    width: 100%; /* Ajustez selon vos besoins */
+    height: auto;
+}
